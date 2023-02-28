@@ -1,0 +1,47 @@
+button:hover, .accordion-item:hover{transform: scale(1.13);
+    
+        
+        opacity: 0.9;
+}
+li:hover{
+    transform: scale(1.13);
+}
+
+body{
+    font-family: 'Tilt Neon', cursive;
+    background-color: #FEF9F3;
+    
+}
+button{
+    font-family: 'Tilt Neon', cursive;
+    color:black!important;
+
+}
+.accordion {
+    max-width: 400px;
+    margin: 10px;
+    
+  }
+  
+  .accordion-item {
+    border: 1px solid rgb(228, 228, 228);
+    border-radius:20px;
+  }
+  
+  .accordion-header {
+    border: 2px solid black;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(215,168,222,1) 0%, rgba(83,178,235,1) 60%, rgba(0,212,255,1) 100%);
+border-radius:33px;
+  }
+
+  .accordion-content {
+    display: none;
+    padding: 10px;
+  }
+  
+  .accordion-item.active .accordion-content {
+    display: block;
+  }
